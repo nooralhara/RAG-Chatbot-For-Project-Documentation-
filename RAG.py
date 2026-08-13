@@ -12,8 +12,8 @@ while file_paths:
     documents.extend(loader.load())
 
 splitter = TokenTextSplitter(
-    chunk_size =600,
-    chunk_overlap=75
+    chunk_size =700,
+    chunk_overlap=125
 )
 chunks = splitter.split_documents(documents)
 
