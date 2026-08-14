@@ -10,6 +10,6 @@ LLM = ChatOpenAI (
     api_key = os.getenv("OPENROUTER_API_KEY"),
     base_url = "https://openrouter.ai/api/v1",
     model = "openrouter/free",
-    temperature = 0.8
+    temperature = 0.4
 )
 
